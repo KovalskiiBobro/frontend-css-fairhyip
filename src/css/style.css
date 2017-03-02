@@ -4,13 +4,12 @@ body {
 }
 
 .wrapper {
-    width: 85%;
+    width: 1000px;
     margin: auto;
     margin-top: 20px;
 }
 
-h1,
-h2 {
+h1. h2 {
     font-family: "Georgia";
     font-style: inherit;
 }
@@ -63,7 +62,6 @@ h2 {
     text-decoration: none;
     color: #461500;
     font-family: "Georgia";
-    
 }
 
 .mainmenu ul li:hover {
@@ -71,51 +69,76 @@ h2 {
     background-image: url(../images/bg_menu-item-active.png);
     background-size: cover;
 }
+
 .logo img {
     margin: 20px 0px 0px 50px;
 }
+
 .lang-list {
     margin: 0 10px;
-   font-size: 11px;
+    font-size: 11px;
     position: absolute;
-	left: 0;
-	top: 0  
-        
-        
+    left: 0;
+    top: 0
 }
+
 .lang-list li {
     display: inline-block;
     color: #E8D1A4;
-    
 }
-.lang-list li a{
-     text-decoration: none;
+
+.lang-list li a {
+    text-decoration: none;
     color: black;
-    
-    
 }
-.auth{
+
+.auth {
     margin: 0 10px;
-   font-size: 11px;
+    font-size: 11px;
     position: absolute;
-	right: 0;
-	top: 0   
+    right: 0;
+    top: 0
 }
-.auth span a{
-    text-decoration: none; 
+
+.auth span a {
+    text-decoration: none;
 }
-.auth-link signin {
+
+.auth-link.signin a {
     color: #E8D1A4;
 }
-.auth-link {
+
+.auth-link a {
     color: black;
 }
+
 .lang-item:before,
-.auth-link:before {  
-	content: "|";
-	color: white;
-    margin: 0 5px;}
+.auth-link:before {
+    content: "|";
+    color: white;
+    margin: 0 5px;
+}
+
 .lang-item:first-child:before,
-.auth-link:first-child:before {content: ""}
+.auth-link:first-child:before {
+    content: ""
+}
+
+
 /*Header-Closed*/
+
+
 /*Main*/
+
+
+/*.contrnt*/
+
+.promo {
+    background: url(../images/bg_promo.png);
+    border-radius: 9px;
+    margin-bottom: 40px;
+    padding: 30px 40px 30px 145px;
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+}
