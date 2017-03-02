@@ -9,31 +9,12 @@ body {
     margin-top: 20px;
 }
 
-h1. h2 {
-    font-family: "Georgia";
-    font-style: inherit;
-}
-
-h1 {
-    font-size: 22px;
-    color: #EAD4AA;
-}
-
-h2 {
-    font-size: 18px;
-    color: #FFF68D;
-}
-
 .a: active {
     color: #461500;
     font-size: 34px;
 }
 
-.p {
-    color: #D7CFC8;
-    font-size: 11px;
-    line-height: 15px;
-}
+
 
 
 /*Header*/
@@ -133,12 +114,60 @@ h2 {
 
 /*.contrnt*/
 
+.promo h1 {
+    font-size: 22px;
+    font-style: "Georgia";
+    color: #EAD4AA;
+    margin-bottom: 20px;
+}
+
 .promo {
     background: url(../images/bg_promo.png);
     border-radius: 9px;
     margin-bottom: 40px;
     padding: 30px 40px 30px 145px;
+    position: relative;
     font-size: 14px;
     font-style: italic;
+    color: #F9DA5A;
     display: block;
+}
+
+.promo:before {
+    content: url(../images/bg_about.png);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 30px 20px 35px 60px;
+}
+
+.article h2 {
+    color: #FFF68D;
+    font-size: 18px;
+    font-style: "Georgia";
+    margin-bottom: 20px;
+}
+
+.article {
+    padding: 30px 40px 30px 145px;
+    position: relative;
+}
+
+.article img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 70px 20px 35px 35px;
+}
+.article p{
+    color:#E2E2E2;
+    font-size: 11px;
+	line-height: 15px;
+}
+   /*Footer*/
+.footer {
+    width: 1000px;
+    
 }
